@@ -4818,13 +4818,13 @@ def bot(op):
                                 if " " in Name:
                                     nick = Name.split(' ')
                                     if len(nick) == 2:
-                                        acil.sendText(op.param1,"╔══════════════╗\n╠ 🌀 ᵀᵘᵃᵏᶰᵍ ᴵᶰᵗᶤᵖ\n╚══════════════╝" + nick[0] + "\n" +  wait["sider1"])
+                                        acil.sendText(op.param1,"╔══════════════╗\n╠ 🌀 ᵀᵘᵃᵏᶰᵍ ᴵᶰᵗᶤᵖ\n╠ 🌀 " + nick[0] + "\n╚══════════════╝" +  wait["sider1"])
                                         acil.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net/" + Np)
                                     else:
-                                        acil.sendText(op.param1,"╔══════════════╗\n╠ 🌀 ᵀᵘᵃᵏᶰᵍ ᴵᶰᵗᶤᵖ\n╚══════════════╝" + nick[0] + "\n" +  wait["sider1"])
+                                        acil.sendText(op.param1,"╔══════════════╗\n╠ 🌀 ᵀᵘᵃᵏᶰᵍ ᴵᶰᵗᶤᵖ\n╠ 🌀 " + nick[0] + "\n╚══════════════╝" +  wait["sider1"])
                                         acil.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net/" + Np)
                                 else:
-                                    acil.sendText(op.param1,"╔══════════════╗\n╠ 🌀 ᵀᵘᵃᵏᶰᵍ ᴵᶰᵗᶤᵖ\n╚══════════════╝" + nick[0] + "\n" +  wait["sider1"])
+                                    acil.sendText(op.param1,"╔══════════════╗\n╠ 🌀 ᵀᵘᵃᵏᶰᵍ ᴵᶰᵗᶤᵖ\n╠ 🌀 " + nick[0] + "\n╚══════════════╝" +  wait["sider1"])
                                     acil.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net/" + Np)
                         else:
                             pass
